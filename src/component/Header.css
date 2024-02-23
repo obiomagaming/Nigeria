@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.coat-of-arm {
+    justify-content: center;
+}
+
+
+.header {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    
+}
+
+.header form {
+    margin-top: 40px;
+}
+
+.header input {
+    height: 35px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid;
+    border-radius: none;
+    border-right: none;
+    border-color: rgb(104, 101, 101);
+    
+}
+
+.header button {
+    height: 37px;
+    width: 37px;
+    background-color: #01903C;
+    border: none;
+    border-left: none;
+    border-color:#B0B0B0;
+    color: white
+
+}
+.nav-bar {
+    /* width: ; */
+}
+
+.nav-bar ul {
+    list-style-type:none;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    font-size: 31px;
+    padding: 20px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 5px 5px #c5c2c2;
+    
+
+}
+.nav-bar a{
+    color: #3A3A3A;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.nav-bar li {
+    border-right: 1px solid #DDDDDD;
+}
+
+.role {
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    column-gap:10px;
+   
+    
+}
+
+.role-p {
+   max-width: 570px;
+}
+
+.role-p h1 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+
+.role img {
+    height: 400px;
+    width: 570px;
+}
+
+.role-p p {
+    font-size: 28px;
+    margin: 30px 0;
+    
+}
+
+.role-p button {
+    width: 150px;
+    height: 40px;
+    background-color:#01903C;
+    border: none;
+    color: white;
+
+}
+
+.p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Nav-picture{
+    justify-content: center;
+    text-align: center;
+}
+
+.Nav-picture img{
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+@media screen and  (max-width: 1024px){
+    .header {
+        border-top: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+        box-shadow: 0 5px 5px #c5c2c2;
+       
+    }
+    .nav-bar {
+        display: none;
+        width: 100%;
+    }
+    .role {
+        flex-wrap: wrap;
+        
+    }
+    
+    .coat-of-arm input {
+        display: none;
+    }
+    .header button {
+        background-color: white;
+        color: #01903C;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .role-p {
+        padding: none;
+        text-decoration: none;
+        width: 100%;
+    }
+    .role-p h1{
+        font-size: 32px;
+        line-height: none;
+
+    }
+    .role-p  p {
+         font-size: 20px; 
+    }
+    
+    .role img {
+        height: 180px;
+        width: 100%;
+    }
+    .role-p button {
+        width: 100%;
+    }
+    .Nav-picture img{
+        width: 50%;
+        text-align: center;
+    }
+
+
+}
+
+
+
+

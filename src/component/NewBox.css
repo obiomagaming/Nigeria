@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#nandu {
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+#nandu h1{
+    margin: 500px 0 0 320px;
+    padding-top: 200px;
+    
+    
+}
+
+.bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    padding-top: 80px;
+    /* justify-content: center; */
+    /* border: 1px solid; */
+    width: 1300px;
+    max-width: 100%;
+}
+/* #inbigbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    padding-top: 70px;
+    border: 1px solid;
+    width: 1265px;
+} */
+.fcta img {
+    height: 23px;
+    
+}
+
+#fcta1 img {
+    height: 350px;
+    
+}
+
+.fcta {
+    border: 1px solid  #DDDDDD;;
+    width: 620px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 0 auto; */
+}
+
+
+.fcta h3 {
+    color: #01662B;
+    font-size: 25px;
+    
+    
+}
+.fcta p{
+    font-size: 21px;
+}
+
+.fcta {
+    color: #6e6b6b;
+}
+
+#fctaimg img {
+    height: 25px;
+}
+
+#fcta1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fctatext {
+    padding: 20px 0 0  15px;
+
+}
+
+.fctatext h3 {
+    padding-top: 10px;
+    line-height: 20px;
+    
+}
+.fctatext p {
+    font-size: 20px;
+}
+
+.fcta-p {
+    padding-top: 20px;
+    
+}
+.fctatext  img{
+    margin: 120px 0 0 257px;
+
+}
+#fcta2 {
+    display: flex; 
+}
+#fcta2 h3{
+    /* width: 600px; */
+    padding: 30px 0 30px 30px;
+}
+#fcta2 p {
+    padding: 0 0px 5px 30px;
+    line-height: 20px;
+}
+
+#fcta2 img {
+    margin: 316px 0px 0 120px;
+    
+}
+
+#fcta3 {
+    display: flex;   
+}
+#fctah3 {
+    padding: 30px 0 30px 30px;
+
+}
+
+#fcta3 h3 {
+    margin-right: 30px;
+}
+
+#fcta3 p {
+    padding: 0 0px 5px 30px;
+    line-height: 20px;
+   
+}
+
+#fcta3 img {
+    margin: 316px 0px 0px 120px;
+}
+
+@media screen and  (max-width: 1024px){
+    .fcta {
+        max-width: 100%;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .fcta img {
+        width: 100%;
+    }
+    #fcta1 {
+        order: 2;
+    }
+    #fcta2 {
+        order: 1;
+    }
+    #fcta3 {
+        order: 3;
+    }
+    #nandu h1 {
+        width: 100%;
+        margin: 50px 0 0px 40px;
+    }
+}
